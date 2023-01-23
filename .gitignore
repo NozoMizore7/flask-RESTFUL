@@ -1,6 +1,7 @@
 *.py[cod]
 env
-
+.venv
+*.jpg
 # C extensions
 *.so
 

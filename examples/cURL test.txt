@@ -1,0 +1,4 @@
+cURL http://127.0.0.1:5000/
+cURL -X POST http://127.0.0.1:5000/add -d "{\"username\": \"sea_man\", \"password\": \"Santi1.\",\"contact_name\" : \"WangMiao\"}" -H "Content-Type: application/json"
+cURL -X PUT http://127.0.0.1:5000/update/10 -d "{\"email\": \"water_man@tbp.com\", \"address1\": \"No.11 Zhongguancun Beiyitiao\",\"city\" : \"Beijing\",\"postal_code\" : \"100190\"}" -H "Content-Type: application/json"
+cURL -X DELETE http://127.0.0.1:5000/delete/8
